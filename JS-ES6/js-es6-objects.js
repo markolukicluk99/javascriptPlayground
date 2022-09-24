@@ -10,6 +10,7 @@
  * Foreach loops
  */
 
+// source: Javatpoint
 /**
  * Adding values to a new object with Object.assign function
  */
@@ -34,3 +35,18 @@ var spread1 = {0: 1, 1: 2, 3: 3};
 var spread2 = {4: 'Spread0', 5: 'Spread1', 6: 'Spread2'};
 
 var finalSpread = {...spread1, ...spread2};
+
+/**
+ * Deleting properties from an object
+ */
+
+var propsObj = new Object();
+propsObj.a = 100;
+propsObj.b = 200;
+propsObj.c = 300;
+
+// delete + key that you want to delete
+
+delete propsObj.c;
+
+// source: Javatpoint
