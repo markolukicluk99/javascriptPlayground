@@ -26,3 +26,11 @@ var obj1 = {0: 123, 1: 345, 2: 678};
 var cloneObj1 = Object.assign({}, obj1);
 // which alows us to update values inside the cloned object
 cloneObj1[0] = 567;
+
+/**
+ * Spread operator ...
+ */
+var spread1 = {0: 1, 1: 2, 3: 3};
+var spread2 = {4: 'Spread0', 5: 'Spread1', 6: 'Spread2'};
+
+var finalSpread = {...spread1, ...spread2};
