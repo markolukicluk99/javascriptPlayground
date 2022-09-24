@@ -59,5 +59,6 @@ delete propsObj.c;
 const num = {x: 100, y: 200};
 const {x: new1, y: new2} = num; 
 
+// Left off at Object deconstructing - Assignment without declaration
 // source: Javatpoint
 
