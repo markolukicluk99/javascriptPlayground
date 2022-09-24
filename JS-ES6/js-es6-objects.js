@@ -49,4 +49,15 @@ propsObj.c = 300;
 
 delete propsObj.c;
 
+/** 
+ * Object destructuring (Simple)
+ */
+ const potatoes = {x: 100, y: 200, z: 300};
+
+ const {x, y, z} = potatoes;
+// Another way of assigning new key names
+const num = {x: 100, y: 200};
+const {x: new1, y: new2} = num; 
+
 // source: Javatpoint
+
